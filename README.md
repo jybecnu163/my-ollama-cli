@@ -4,6 +4,7 @@ A terminal-based AI assistant powered by **Ollama** (qwen2.5-coder:7b) with tool
 
 ## Setup
 
+0. git clone git@github.com:jybecnu163/my-ollama-cli.git
 1. Install [Ollama](https://ollama.com/) and pull the model:
    ```bash
    ollama pull qwen2.5-coder:7b
