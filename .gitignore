@@ -1,0 +1,61 @@
+# 依赖目录
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 编译输出
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 操作系统生成文件
+.DS_Store
+Thumbs.db
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# 工具临时文件
+.tmp/
+.temp/
+*.tmp
+
+# Ollama 自定义目录（如有）
+ollama_models/
+*.gguf
+
+# TypeScript 缓存
+*.tsbuildinfo
+
+# 可选：是否忽略本地配置
+config.local.ts
+
+generate.js
+generate-fix.cjs
+*.cjs
+
+test/
